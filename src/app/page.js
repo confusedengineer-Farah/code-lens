@@ -54,7 +54,7 @@ export default function Home() {
       {response && (
         <div className="mt-6 p-4 bg-gray-800 rounded-lg">
           <h2 className="text-xl mb-2">Explanation:</h2>
-          <p>{response}</p>
+          <pre className="whitespace-pre-wrap">{response}</pre>
         </div>
       )}
     </div>
